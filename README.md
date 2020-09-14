@@ -24,7 +24,7 @@ npm install
 
 - Localhost
 
-(https://github.com/pabrig/challenge-weather-app/blob/master/src/assets/screen-shot-desktop.png)
+https://github.com/pabrig/challenge-weather-app/blob/master/src/assets/screen-shot-desktop.png
 
 quasar dev
 
