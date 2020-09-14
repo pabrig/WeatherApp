@@ -31,6 +31,7 @@ $quasar dev
 - IOS
 
 $quasar dev -m ios
+
 ![](https://github.com/pabrig/challenge-weather-app/blob/master/src/assets/screenshot-capture-ios.jpeg)
 - Android
 
