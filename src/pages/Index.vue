@@ -80,7 +80,16 @@ export default {
     getLocation (){
         this.$q.loading.show();
 
-      navigator.geolocation.getCurrentPosition(
+        if( this.$q.platform.is.electron){
+          this.$axios.get('https://freegeoip.app/json/').then(response=>{
+            this.latitude = repsonse.data.latitude
+            this.longtude = repsonse.data.longitude
+            this.getWeatherCoords()
+
+          })
+
+        }else{
+           navigator.geolocation.getCurrentPosition(
         position => {
           console.log('position: ', position)
           this.latitude = position.coords.latitude;
@@ -88,6 +97,9 @@ export default {
           this.getWeatherCoords();
 
         })
+
+        }
+     
     },
       getWeatherCoords(){
               this.$q.loading.show();
