@@ -19,9 +19,9 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-        <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
-    <string>need location access to find things nearby</string>
-</edit-config>
+        <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+            <string>need location access to find things nearby</string>
+        </edit-config>
     </platform>
     <allow-navigation href="about:*" />
 </widget>

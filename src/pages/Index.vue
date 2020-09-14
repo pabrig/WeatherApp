@@ -11,10 +11,10 @@
     </div>
 
     <template v-if="WeatherData">
-         <div class="col text-center q-mt-sm">
+         <div class="container-img col text-center q-mt-sm">
       <img :src="`http://openweathermap.org/img/wn/${WeatherData.weather[0].icon}@2x.png`" alt="">
     </div>
-        <div class="col text-white text-center">
+        <div class="container-text col text-white text-center">
       <div class="text-h4 text-weight-light">
         {{ WeatherData.name }}
       </div>
@@ -134,13 +134,23 @@ export default {
 
 <style lang="sass">
 .q-page {
-    background: linear-gradient(to top, #0575e6, #021b79)
+    background: linear-gradient(to top, #0575e6, #021b79);
+    height: 100%
   }
 .bg-day{
   background: linear-gradient(to top, #56ccf2, #2f80ed)
   }
 .bg-night{
    background: linear-gradient(to bottom, #141e30, #243b55)
+  }
+.container-img{
+  margin-top: -4rem
+  }
+.container-text{
+  margin-top: -7rem
+  }
+.text-h2{
+  margin-left: 2rem
   }
 </style>
 
