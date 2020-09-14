@@ -13,22 +13,21 @@ This is an application for search and view your favourite pokemons.
 
 ## Installation
 
-- Clone the repository into your computer.
-
-- Then:
+ Clone the repository into your computer.
+ Then:
 
 bash
 cd challenge-weather-app
 
 $npm install
 
-IOS
+-IOS
 
 $quasar dev -m ios
 
-Android
+-Android
 
-- Open Android studio
+ Open Android studio
 
 $quasar dev -m android
 
