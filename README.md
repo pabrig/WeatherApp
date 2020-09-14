@@ -40,6 +40,7 @@ quasar dev -m android
 
 
 
+Click on My Find Location, to get the weather of your current location, or insert a city in the search engine and click on search to see the forecast you are looking for
 
 
 
