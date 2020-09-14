@@ -5,8 +5,8 @@ This is an application for search and view your favourite pokemons.
 ## Prerequisites
 
 - Node and npm
-- Quasar CLI npm install -g @quasar/cli
-- Cordova npm install -g cordova
+- Quasar CLI $npm install -g @quasar/cli
+- Cordova $npm install -g cordova
 - XCode > 9
 - JDK > 8
 - Android Studio and Android SDK
@@ -18,26 +18,25 @@ This is an application for search and view your favourite pokemons.
  Then:
 
 bash
-cd challenge-weather-app
+$cd challenge-weather-app
 
-npm install
+$npm install
 
 - Localhost
+
+$quasar dev
 ![](https://github.com/pabrig/challenge-weather-app/blob/master/src/assets/screen-shot-desktop.png)
 
 
-
-quasar dev
-
 - IOS
 
-quasar dev -m ios
+$quasar dev -m ios
 ![](src/asstets/screenshot-capture-ios.jpg)
 - Android
 
  Open Android studio
 
-quasar dev -m android
+$quasar dev -m android
 
 
 
