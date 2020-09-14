@@ -22,12 +22,16 @@ cd challenge-weather-app
 
 npm install
 
+- Localhost
+
+![](src/asstets/screen-shot-desktop)
+
 quasar dev
 
 - IOS
 
 quasar dev -m ios
-
+![](src/asstets/screenshot-capture-ios.jpg)
 - Android
 
  Open Android studio
