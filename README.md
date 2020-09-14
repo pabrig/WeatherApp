@@ -21,11 +21,13 @@ cd challenge-weather-app
 
 $npm install
 
--IOS
+$quasar dev
+
+- IOS
 
 $quasar dev -m ios
 
--Android
+- Android
 
  Open Android studio
 
