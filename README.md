@@ -1,4 +1,4 @@
-# Challenge Weather App
+# Weather App
 
 This is an application for search and view your favourite pokemons.
 
